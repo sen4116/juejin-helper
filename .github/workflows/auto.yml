@@ -17,6 +17,7 @@ env:
   DINGDING_WEBHOOK: ${{ 'https://oapi.dingtalk.com/robot/send?access_token=31a376eea2cc129c92edf03200ef8b7b6ebb5380e29db3c7ac45fbf2c638068d' }}
   PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
   WEIXIN_WEBHOOK: ${{ secrets.WEIXIN_WEBHOOK }}
+  SERVERPUSHKEY: ${{ secrets.SERVERPUSHKEY }}
 
 jobs:
   CheckIn:
